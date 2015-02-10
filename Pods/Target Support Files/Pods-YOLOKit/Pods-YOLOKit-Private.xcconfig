@@ -1,0 +1,5 @@
+#include "Pods-YOLOKit.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ${PODS_YOLOKIT_GCC_PREPROCESSOR_DEFINITIONS}
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/YOLOKit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Color-Picker-for-iOS" "${PODS_ROOT}/Headers/Public/MagicalRecord" "${PODS_ROOT}/Headers/Public/UIColor-HexString" "${PODS_ROOT}/Headers/Public/UIColorInterpolation" "${PODS_ROOT}/Headers/Public/YOLOKit"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

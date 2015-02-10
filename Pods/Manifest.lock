@@ -1,0 +1,207 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Color-Picker-for-iOS (2.0)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core
+  - MagicalRecord/Core (2.2)
+  - UIColor-HexString (1.1.0)
+  - UIColorInterpolation (0.3)
+  - YOLOKit (11.1.1):
+    - YOLOKit/all
+    - YOLOKit/any
+    - YOLOKit/array
+    - YOLOKit/base
+    - YOLOKit/chunk
+    - YOLOKit/concat
+    - YOLOKit/dict
+    - YOLOKit/each
+    - YOLOKit/extend
+    - YOLOKit/find
+    - YOLOKit/first
+    - YOLOKit/flatMap
+    - YOLOKit/flatten
+    - YOLOKit/fmap
+    - YOLOKit/get
+    - YOLOKit/groupBy
+    - YOLOKit/has
+    - YOLOKit/indexOf
+    - YOLOKit/inject
+    - YOLOKit/join
+    - YOLOKit/last
+    - YOLOKit/map
+    - YOLOKit/max
+    - YOLOKit/min
+    - YOLOKit/none
+    - YOLOKit/partition
+    - YOLOKit/pick
+    - YOLOKit/pluck
+    - YOLOKit/pmap
+    - YOLOKit/pop
+    - YOLOKit/push
+    - YOLOKit/reduce
+    - YOLOKit/reverse
+    - YOLOKit/rotate
+    - YOLOKit/sample
+    - YOLOKit/select
+    - YOLOKit/shift
+    - YOLOKit/shuffle
+    - YOLOKit/skip
+    - YOLOKit/slice
+    - YOLOKit/snip
+    - YOLOKit/sort
+    - YOLOKit/split
+    - YOLOKit/transpose
+    - YOLOKit/uniq
+    - YOLOKit/unshift
+    - YOLOKit/upTo
+    - YOLOKit/without
+  - YOLOKit/all (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/any (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/array (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/base (11.1.1)
+  - YOLOKit/chunk (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/slice
+  - YOLOKit/concat (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/dict (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/transpose
+  - YOLOKit/each (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/extend (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/find (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/first (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/slice
+  - YOLOKit/flatMap (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/flatten (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/fmap (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/map
+  - YOLOKit/get (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/groupBy (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/has (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/indexOf (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/inject (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/join (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/pluck
+  - YOLOKit/last (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/slice
+  - YOLOKit/map (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/max (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/min (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/none (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/partition (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/pick (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/pluck (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/pmap (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/pop (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/push (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/reduce (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/last
+  - YOLOKit/reverse (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/rotate (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/concat
+    - YOLOKit/skip
+    - YOLOKit/snip
+  - YOLOKit/sample (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/select (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/shift (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/shuffle (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/skip (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/last
+  - YOLOKit/slice (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/snip (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/slice
+  - YOLOKit/sort (11.1.1):
+    - YOLOKit/all
+    - YOLOKit/base
+    - YOLOKit/transpose
+  - YOLOKit/split (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/transpose (11.1.1):
+    - YOLOKit/base
+    - YOLOKit/each
+    - YOLOKit/max
+    - YOLOKit/select
+  - YOLOKit/uniq (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/unshift (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/upTo (11.1.1):
+    - YOLOKit/base
+  - YOLOKit/without (11.1.1):
+    - YOLOKit/base
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - Color-Picker-for-iOS (~> 2.0)
+  - MagicalRecord (~> 2.2)
+  - UIColor-HexString (~> 1.1)
+  - UIColorInterpolation (~> 0.3)
+  - YOLOKit (~> 11.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  Color-Picker-for-iOS: 2eec454aa6b24a8b7c2537da0f61c6ead936949e
+  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
+  UIColor-HexString: a9eabf02c1a2f9036ed6ac9cb2a3ea086f3b39e4
+  UIColorInterpolation: c7cc537c5af5e831081d238f23aa9c000fed6cb2
+  YOLOKit: ad6af7de2870692276ad0f44665d684e8b13791d
+
+COCOAPODS: 0.34.4

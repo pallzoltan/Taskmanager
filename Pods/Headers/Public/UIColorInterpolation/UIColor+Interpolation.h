@@ -1,0 +1,1 @@
+../../../UIColorInterpolation/Classes/UIColor+Interpolation.h

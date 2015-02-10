@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8ADBE0621A26AC5D426555EB /* DataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADBE969AEEAB5C095B16053 /* DataUtil.m */; };
+		8ADBE363E4F068DCC071333E /* DatePickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADBE250653417F939E97408 /* DatePickerLabel.m */; };
+		9CFC2354B379D5A73EF003BE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ED0593CF2C46B8C451D6D7 /* libPods.a */; };
 		D00D99AA1A83E8D7007B3787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99A91A83E8D7007B3787 /* main.m */; };
 		D00D99AD1A83E8D7007B3787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99AC1A83E8D7007B3787 /* AppDelegate.m */; };
-		D00D99B01A83E8D7007B3787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99AF1A83E8D7007B3787 /* ViewController.m */; };
-		D00D99B31A83E8D7007B3787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00D99B11A83E8D7007B3787 /* Main.storyboard */; };
+		D00D99B01A83E8D7007B3787 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99AF1A83E8D7007B3787 /* MainViewController.m */; };
 		D00D99B51A83E8D7007B3787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00D99B41A83E8D7007B3787 /* Images.xcassets */; };
 		D00D99B81A83E8D7007B3787 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D99B61A83E8D7007B3787 /* LaunchScreen.xib */; };
 		D00D99C41A83E8D7007B3787 /* TaskmanagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99C31A83E8D7007B3787 /* TaskmanagerTests.m */; };
+		D00D99D11A83EA3B007B3787 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D99D01A83EA3B007B3787 /* MainViewController.xib */; };
+		D00D99D51A83F239007B3787 /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99D31A83F239007B3787 /* TaskTableViewCell.m */; };
+		D00D99D61A83F239007B3787 /* TaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D99D41A83F239007B3787 /* TaskTableViewCell.xib */; };
+		D00D99DA1A83F5F7007B3787 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99D81A83F5F7007B3787 /* AddTaskViewController.m */; };
+		D00D99DB1A83F5F7007B3787 /* AddTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D99D91A83F5F7007B3787 /* AddTaskViewController.xib */; };
+		D00D99DE1A83F820007B3787 /* PickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D99DD1A83F820007B3787 /* PickerLabel.m */; };
+		D00D99E11A83FD58007B3787 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D00D99DF1A83FD58007B3787 /* Model.xcdatamodeld */; };
+		D021C2F71A84E8730070196B /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D021C2F61A84E8730070196B /* EditTaskViewController.m */; };
+		D02B73861A86749100407124 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B73851A86749100407124 /* Task.m */; };
+		D02B73891A86749200407124 /* TaskCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B73881A86749200407124 /* TaskCategory.m */; };
+		D02B738C1A867EDC00407124 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B738B1A867EDC00407124 /* HeaderView.m */; };
+		D02B738E1A867EEE00407124 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02B738D1A867EEE00407124 /* HeaderView.xib */; };
+		D02B73921A868ED800407124 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B73901A868ED800407124 /* SettingsViewController.m */; };
+		D02B73931A868ED800407124 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02B73911A868ED800407124 /* SettingsViewController.xib */; };
+		D0EBAB7E1A8915460079B74A /* NotificationsStateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBAB7C1A8915460079B74A /* NotificationsStateCell.m */; };
+		D0EBAB7F1A8915460079B74A /* NotificationsStateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EBAB7D1A8915460079B74A /* NotificationsStateCell.xib */; };
+		D0EBAB831A89166D0079B74A /* SortStateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBAB811A89166D0079B74A /* SortStateCell.m */; };
+		D0EBAB841A89166D0079B74A /* SortStateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EBAB821A89166D0079B74A /* SortStateCell.xib */; };
+		D0EBAB881A8A0AA10079B74A /* AddCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBAB861A8A0AA10079B74A /* AddCategoryViewController.m */; };
+		D0EBAB891A8A0AA10079B74A /* AddCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EBAB871A8A0AA10079B74A /* AddCategoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +49,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BBA10C492580454D3A3E242 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7C19CB964A6B1192EEB023B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8ADBE250653417F939E97408 /* DatePickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerLabel.m; sourceTree = "<group>"; };
+		8ADBE969AEEAB5C095B16053 /* DataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtil.m; sourceTree = "<group>"; };
+		8ADBEB9FF5F89C5721E10DA6 /* DatePickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerLabel.h; sourceTree = "<group>"; };
+		8ADBEC17F9D18329AA977740 /* DataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUtil.h; sourceTree = "<group>"; };
 		D00D99A41A83E8D7007B3787 /* Taskmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00D99A81A83E8D7007B3787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00D99A91A83E8D7007B3787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D00D99AB1A83E8D7007B3787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D00D99AC1A83E8D7007B3787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D00D99AE1A83E8D7007B3787 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D00D99AF1A83E8D7007B3787 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D00D99B21A83E8D7007B3787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00D99AE1A83E8D7007B3787 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D00D99AF1A83E8D7007B3787 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D00D99B41A83E8D7007B3787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D00D99B71A83E8D7007B3787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D00D99BD1A83E8D7007B3787 /* TaskmanagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskmanagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00D99C21A83E8D7007B3787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00D99C31A83E8D7007B3787 /* TaskmanagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskmanagerTests.m; sourceTree = "<group>"; };
+		D00D99D01A83EA3B007B3787 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D00D99D21A83F239007B3787 /* TaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		D00D99D31A83F239007B3787 /* TaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
+		D00D99D41A83F239007B3787 /* TaskTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskTableViewCell.xib; sourceTree = "<group>"; };
+		D00D99D71A83F5F7007B3787 /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		D00D99D81A83F5F7007B3787 /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		D00D99D91A83F5F7007B3787 /* AddTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTaskViewController.xib; sourceTree = "<group>"; };
+		D00D99DC1A83F820007B3787 /* PickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerLabel.h; sourceTree = "<group>"; };
+		D00D99DD1A83F820007B3787 /* PickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerLabel.m; sourceTree = "<group>"; };
+		D00D99E01A83FD58007B3787 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D021C2F51A84E8730070196B /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTaskViewController.h; sourceTree = "<group>"; };
+		D021C2F61A84E8730070196B /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTaskViewController.m; sourceTree = "<group>"; };
+		D02B73841A86749100407124 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		D02B73851A86749100407124 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		D02B73871A86749200407124 /* TaskCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCategory.h; sourceTree = "<group>"; };
+		D02B73881A86749200407124 /* TaskCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCategory.m; sourceTree = "<group>"; };
+		D02B738A1A867EDC00407124 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		D02B738B1A867EDC00407124 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		D02B738D1A867EEE00407124 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		D02B738F1A868ED800407124 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D02B73901A868ED800407124 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D02B73911A868ED800407124 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		D0EBAB7B1A8915460079B74A /* NotificationsStateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsStateCell.h; sourceTree = "<group>"; };
+		D0EBAB7C1A8915460079B74A /* NotificationsStateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsStateCell.m; sourceTree = "<group>"; };
+		D0EBAB7D1A8915460079B74A /* NotificationsStateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsStateCell.xib; sourceTree = "<group>"; };
+		D0EBAB801A89166D0079B74A /* SortStateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortStateCell.h; sourceTree = "<group>"; };
+		D0EBAB811A89166D0079B74A /* SortStateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortStateCell.m; sourceTree = "<group>"; };
+		D0EBAB821A89166D0079B74A /* SortStateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortStateCell.xib; sourceTree = "<group>"; };
+		D0EBAB851A8A0AA10079B74A /* AddCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoryViewController.h; sourceTree = "<group>"; };
+		D0EBAB861A8A0AA10079B74A /* AddCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoryViewController.m; sourceTree = "<group>"; };
+		D0EBAB871A8A0AA10079B74A /* AddCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCategoryViewController.xib; sourceTree = "<group>"; };
+		E0ED0593CF2C46B8C451D6D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFC2354B379D5A73EF003BE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +120,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69CA61F985C001D5B47CFE63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C19CB964A6B1192EEB023B6 /* Pods.debug.xcconfig */,
+				5BBA10C492580454D3A3E242 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9C6BB1A47D5044FB054D1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0ED0593CF2C46B8C451D6D7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D00D999B1A83E8D7007B3787 = {
 			isa = PBXGroup;
 			children = (
 				D00D99A61A83E8D7007B3787 /* Taskmanager */,
 				D00D99C01A83E8D7007B3787 /* TaskmanagerTests */,
 				D00D99A51A83E8D7007B3787 /* Products */,
+				69CA61F985C001D5B47CFE63 /* Pods */,
+				B9C6BB1A47D5044FB054D1A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +160,9 @@
 		D00D99A61A83E8D7007B3787 /* Taskmanager */ = {
 			isa = PBXGroup;
 			children = (
-				D00D99AB1A83E8D7007B3787 /* AppDelegate.h */,
-				D00D99AC1A83E8D7007B3787 /* AppDelegate.m */,
-				D00D99AE1A83E8D7007B3787 /* ViewController.h */,
-				D00D99AF1A83E8D7007B3787 /* ViewController.m */,
-				D00D99B11A83E8D7007B3787 /* Main.storyboard */,
-				D00D99B41A83E8D7007B3787 /* Images.xcassets */,
-				D00D99B61A83E8D7007B3787 /* LaunchScreen.xib */,
+				D00D99CF1A83E99A007B3787 /* Models */,
+				D00D99CE1A83E995007B3787 /* Views */,
+				D00D99CD1A83E98F007B3787 /* Controllers */,
 				D00D99A71A83E8D7007B3787 /* Supporting Files */,
 			);
 			path = Taskmanager;
@@ -96,6 +171,8 @@
 		D00D99A71A83E8D7007B3787 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D00D99AB1A83E8D7007B3787 /* AppDelegate.h */,
+				D00D99AC1A83E8D7007B3787 /* AppDelegate.m */,
 				D00D99A81A83E8D7007B3787 /* Info.plist */,
 				D00D99A91A83E8D7007B3787 /* main.m */,
 			);
@@ -119,6 +196,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D00D99CD1A83E98F007B3787 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D00D99AE1A83E8D7007B3787 /* MainViewController.h */,
+				D00D99AF1A83E8D7007B3787 /* MainViewController.m */,
+				D00D99D01A83EA3B007B3787 /* MainViewController.xib */,
+				D00D99D71A83F5F7007B3787 /* AddTaskViewController.h */,
+				D00D99D81A83F5F7007B3787 /* AddTaskViewController.m */,
+				D00D99D91A83F5F7007B3787 /* AddTaskViewController.xib */,
+				D021C2F51A84E8730070196B /* EditTaskViewController.h */,
+				D021C2F61A84E8730070196B /* EditTaskViewController.m */,
+				D02B738F1A868ED800407124 /* SettingsViewController.h */,
+				D02B73901A868ED800407124 /* SettingsViewController.m */,
+				D02B73911A868ED800407124 /* SettingsViewController.xib */,
+				D0EBAB851A8A0AA10079B74A /* AddCategoryViewController.h */,
+				D0EBAB861A8A0AA10079B74A /* AddCategoryViewController.m */,
+				D0EBAB871A8A0AA10079B74A /* AddCategoryViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D00D99CE1A83E995007B3787 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D00D99B41A83E8D7007B3787 /* Images.xcassets */,
+				D00D99B61A83E8D7007B3787 /* LaunchScreen.xib */,
+				D00D99D21A83F239007B3787 /* TaskTableViewCell.h */,
+				D00D99D31A83F239007B3787 /* TaskTableViewCell.m */,
+				D00D99D41A83F239007B3787 /* TaskTableViewCell.xib */,
+				D00D99DC1A83F820007B3787 /* PickerLabel.h */,
+				D00D99DD1A83F820007B3787 /* PickerLabel.m */,
+				8ADBE250653417F939E97408 /* DatePickerLabel.m */,
+				8ADBEB9FF5F89C5721E10DA6 /* DatePickerLabel.h */,
+				D02B738A1A867EDC00407124 /* HeaderView.h */,
+				D02B738B1A867EDC00407124 /* HeaderView.m */,
+				D02B738D1A867EEE00407124 /* HeaderView.xib */,
+				D0EBAB7B1A8915460079B74A /* NotificationsStateCell.h */,
+				D0EBAB7C1A8915460079B74A /* NotificationsStateCell.m */,
+				D0EBAB7D1A8915460079B74A /* NotificationsStateCell.xib */,
+				D0EBAB801A89166D0079B74A /* SortStateCell.h */,
+				D0EBAB811A89166D0079B74A /* SortStateCell.m */,
+				D0EBAB821A89166D0079B74A /* SortStateCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D00D99CF1A83E99A007B3787 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D02B73871A86749200407124 /* TaskCategory.h */,
+				D02B73881A86749200407124 /* TaskCategory.m */,
+				D02B73841A86749100407124 /* Task.h */,
+				D02B73851A86749100407124 /* Task.m */,
+				D00D99DF1A83FD58007B3787 /* Model.xcdatamodeld */,
+				8ADBE969AEEAB5C095B16053 /* DataUtil.m */,
+				8ADBEC17F9D18329AA977740 /* DataUtil.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D00D99C71A83E8D7007B3787 /* Build configuration list for PBXNativeTarget "Taskmanager" */;
 			buildPhases = (
+				0DB2BF64659FABAFB586374A /* Check Pods Manifest.lock */,
 				D00D99A01A83E8D7007B3787 /* Sources */,
 				D00D99A11A83E8D7007B3787 /* Frameworks */,
 				D00D99A21A83E8D7007B3787 /* Resources */,
+				A02E2F06528DAD79646BFE89 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +338,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00D99B31A83E8D7007B3787 /* Main.storyboard in Resources */,
+				D00D99D61A83F239007B3787 /* TaskTableViewCell.xib in Resources */,
 				D00D99B81A83E8D7007B3787 /* LaunchScreen.xib in Resources */,
+				D00D99D11A83EA3B007B3787 /* MainViewController.xib in Resources */,
+				D02B738E1A867EEE00407124 /* HeaderView.xib in Resources */,
+				D00D99DB1A83F5F7007B3787 /* AddTaskViewController.xib in Resources */,
+				D0EBAB841A89166D0079B74A /* SortStateCell.xib in Resources */,
+				D0EBAB891A8A0AA10079B74A /* AddCategoryViewController.xib in Resources */,
+				D02B73931A868ED800407124 /* SettingsViewController.xib in Resources */,
+				D0EBAB7F1A8915460079B74A /* NotificationsStateCell.xib in Resources */,
 				D00D99B51A83E8D7007B3787 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +360,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DB2BF64659FABAFB586374A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A02E2F06528DAD79646BFE89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D00D99A01A83E8D7007B3787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00D99B01A83E8D7007B3787 /* ViewController.m in Sources */,
+				D02B738C1A867EDC00407124 /* HeaderView.m in Sources */,
+				D00D99DE1A83F820007B3787 /* PickerLabel.m in Sources */,
+				D00D99DA1A83F5F7007B3787 /* AddTaskViewController.m in Sources */,
+				D0EBAB831A89166D0079B74A /* SortStateCell.m in Sources */,
+				D021C2F71A84E8730070196B /* EditTaskViewController.m in Sources */,
+				D02B73861A86749100407124 /* Task.m in Sources */,
+				D0EBAB881A8A0AA10079B74A /* AddCategoryViewController.m in Sources */,
+				D00D99D51A83F239007B3787 /* TaskTableViewCell.m in Sources */,
+				D00D99E11A83FD58007B3787 /* Model.xcdatamodeld in Sources */,
+				D00D99B01A83E8D7007B3787 /* MainViewController.m in Sources */,
 				D00D99AD1A83E8D7007B3787 /* AppDelegate.m in Sources */,
+				D0EBAB7E1A8915460079B74A /* NotificationsStateCell.m in Sources */,
 				D00D99AA1A83E8D7007B3787 /* main.m in Sources */,
+				8ADBE0621A26AC5D426555EB /* DataUtil.m in Sources */,
+				D02B73891A86749200407124 /* TaskCategory.m in Sources */,
+				8ADBE363E4F068DCC071333E /* DatePickerLabel.m in Sources */,
+				D02B73921A868ED800407124 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D00D99B11A83E8D7007B3787 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D00D99B21A83E8D7007B3787 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D00D99B61A83E8D7007B3787 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,21 +526,25 @@
 		};
 		D00D99C81A83E8D7007B3787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C19CB964A6B1192EEB023B6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Taskmanager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
 		D00D99C91A83E8D7007B3787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBA10C492580454D3A3E242 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Taskmanager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};
@@ -412,6 +601,7 @@
 				D00D99C91A83E8D7007B3787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D00D99CA1A83E8D7007B3787 /* Build configuration list for PBXNativeTarget "TaskmanagerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,8 +610,22 @@
 				D00D99CC1A83E8D7007B3787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D00D99DF1A83FD58007B3787 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D00D99E01A83FD58007B3787 /* Model.xcdatamodel */,
+			);
+			currentVersion = D00D99E01A83FD58007B3787 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D00D999C1A83E8D7007B3787 /* Project object */;
 }

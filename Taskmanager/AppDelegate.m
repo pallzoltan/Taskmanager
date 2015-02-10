@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "MagicalRecord.h"
+#import "MagicalRecord+Setup.h"
+#import "UIColor+HexString.h"
+#import "DataUtil.h"
 
 @interface AppDelegate ()
 
@@ -14,15 +19,42 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+
+    [MagicalRecord setupAutoMigratingCoreDataStack];
+
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"alreadyLaunchedOnce"]) {
+
+        [DataUtil createDefaultCategories];
+
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"alreadyLaunchedOnce"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+
+        [DataUtil setNotificationsEnabled:YES];
+    }
+
+
+    UINavigationController *navigationController;
+    MainViewController *mainViewController;
+
+    mainViewController = [[MainViewController alloc] init];
+    navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    // Use this method to pause ongoing undoneTasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -35,7 +67,7 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // Restart any undoneTasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
