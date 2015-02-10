@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class HRColorMapView;
+@class HRBrightnessSlider;
+
 @interface AddCategoryViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet HRColorMapView *colorMapView;
+@property (weak, nonatomic) IBOutlet HRBrightnessSlider *brightnessSlider;
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+
+- (void)handleDoneButton;
 
 @end

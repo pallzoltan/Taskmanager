@@ -2,53 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c416d13-877a-419d-8814-db33179840ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/AddTaskViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/AddTaskViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/AddTaskViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/DataUtil.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/DataUtil.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/DatePickerLabel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/DatePickerLabel.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/EditTaskViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/EditTaskViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/HeaderView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/HeaderView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/HeaderView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/MainViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/MainViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/NotificationsStateCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/NotificationsStateCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/NotificationsStateCell.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/PickerLabel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/PickerLabel.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/SettingsViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/SettingsViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/SettingsViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/SortStateCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/SortStateCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/SortStateCell.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/Task.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/Task.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/TaskCategory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/TaskCategory.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/TaskTableViewCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/TaskTableViewCell.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Taskmanager.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/Model.xcdatamodeld/Model.xcdatamodel/contents" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Taskmanager/Base.lproj/Main.storyboard" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Taskmanager/ViewController.h" afterPath="$PROJECT_DIR$/Taskmanager/TaskTableViewCell.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Taskmanager/ViewController.m" afterPath="$PROJECT_DIR$/Taskmanager/MainViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/AppDelegate.m" afterPath="$PROJECT_DIR$/Taskmanager/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/Info.plist" afterPath="$PROJECT_DIR$/Taskmanager/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/EditCategoryViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Taskmanager/EditCategoryViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.h" afterPath="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.m" afterPath="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/AddTaskViewController.m" afterPath="$PROJECT_DIR$/Taskmanager/AddTaskViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/DataUtil.h" afterPath="$PROJECT_DIR$/Taskmanager/DataUtil.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/DataUtil.m" afterPath="$PROJECT_DIR$/Taskmanager/DataUtil.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager/SettingsViewController.m" afterPath="$PROJECT_DIR$/Taskmanager/SettingsViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Taskmanager.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Taskmanager.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Taskmanager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,11 +35,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainViewController.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Taskmanager/MainViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6083551" vertical-offset="2602" max-vertical-offset="3315">
-              <caret line="197" column="62" selection-start-line="197" selection-start-column="46" selection-end-line="197" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2617" max-vertical-offset="3345">
+              <caret line="199" column="62" selection-start-line="199" selection-start-column="46" selection-end-line="199" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Taskmanager/SettingsViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1583" max-vertical-offset="2520">
+              <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditCategoryViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Taskmanager/EditCategoryViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="855">
+              <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+              <folding>
+                <element signature="e#156#194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataUtil.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Taskmanager/DataUtil.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="2760">
+              <caret line="63" column="75" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddCategoryViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Taskmanager/AddCategoryViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="292" max-vertical-offset="810">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="50" />
+              <folding>
+                <element signature="e#155#192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTaskViewController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Taskmanager/AddTaskViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="547" max-vertical-offset="1305">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -110,12 +127,15 @@
         <option value="$PROJECT_DIR$/Taskmanager/AppDelegate.m" />
         <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/Taskmanager/DataUtil.h" />
-        <option value="$PROJECT_DIR$/Taskmanager/SettingsViewController.m" />
-        <option value="$PROJECT_DIR$/Taskmanager/DataUtil.m" />
         <option value="$PROJECT_DIR$/Taskmanager/TaskTableViewCell.m" />
+        <option value="$PROJECT_DIR$/Taskmanager/MainViewController.m" />
+        <option value="$PROJECT_DIR$/Taskmanager/SettingsViewController.m" />
+        <option value="$PROJECT_DIR$/Taskmanager/EditCategoryViewController.h" />
+        <option value="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.h" />
+        <option value="$PROJECT_DIR$/Taskmanager/EditCategoryViewController.m" />
+        <option value="$PROJECT_DIR$/Taskmanager/DataUtil.m" />
         <option value="$PROJECT_DIR$/Taskmanager/AddCategoryViewController.m" />
         <option value="$PROJECT_DIR$/Taskmanager/AddTaskViewController.m" />
-        <option value="$PROJECT_DIR$/Taskmanager/MainViewController.m" />
       </list>
     </option>
   </component>
@@ -383,8 +403,8 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3973607" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3973607" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -427,48 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Taskmanager/MainViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2415" max-vertical-offset="3225">
-          <caret line="161" column="62" selection-start-line="161" selection-start-column="62" selection-end-line="161" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taskmanager/TaskTableViewCell.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#147#176#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taskmanager/AddTaskViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#151#184#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2539267" vertical-offset="53" max-vertical-offset="1755">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56806284" vertical-offset="743" max-vertical-offset="3855">
-          <caret line="65" column="73" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pods/UIColor-HexString/UIColor+HexString.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43193716" vertical-offset="0" max-vertical-offset="382">
@@ -736,22 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taskmanager/SettingsViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7624021" vertical-offset="413" max-vertical-offset="2340">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taskmanager/DataUtil.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37859008" vertical-offset="455" max-vertical-offset="2655">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33159268" vertical-offset="68" max-vertical-offset="4770">
@@ -764,14 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45169714" vertical-offset="67" max-vertical-offset="645">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taskmanager/AddTaskViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37859008" vertical-offset="695" max-vertical-offset="1305">
-          <caret line="62" column="146" selection-start-line="62" selection-start-column="140" selection-end-line="62" selection-end-column="146" />
           <folding />
         </state>
       </provider>
@@ -792,20 +746,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Taskmanager/MainViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2617" max-vertical-offset="3345">
+          <caret line="199" column="62" selection-start-line="199" selection-start-column="46" selection-end-line="199" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taskmanager/SettingsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1583" max-vertical-offset="2520">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taskmanager/EditCategoryViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483029" vertical-offset="0" max-vertical-offset="383">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Color-Picker-for-iOS/ColorPicker/HRColorMapView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1775457" vertical-offset="427" max-vertical-offset="810">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/Color-Picker-for-iOS/HRColorMapView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6853147" vertical-offset="381" max-vertical-offset="810">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taskmanager/AddCategoryViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5691906" vertical-offset="22" max-vertical-offset="420">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taskmanager/EditCategoryViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="855">
+          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+          <folding>
+            <element signature="e#156#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taskmanager/DataUtil.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="2760">
+          <caret line="63" column="75" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Taskmanager/AddCategoryViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.613577" vertical-offset="245" max-vertical-offset="825">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="292" max-vertical-offset="810">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="50" />
           <folding>
             <element signature="e#155#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taskmanager/MainViewController.m">
+    <entry file="file://$PROJECT_DIR$/Taskmanager/AddTaskViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6083551" vertical-offset="2602" max-vertical-offset="3315">
-          <caret line="197" column="62" selection-start-line="197" selection-start-column="46" selection-end-line="197" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="547" max-vertical-offset="1305">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
           <folding />
         </state>
       </provider>

@@ -36,6 +36,7 @@
 		D0EBAB841A89166D0079B74A /* SortStateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EBAB821A89166D0079B74A /* SortStateCell.xib */; };
 		D0EBAB881A8A0AA10079B74A /* AddCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBAB861A8A0AA10079B74A /* AddCategoryViewController.m */; };
 		D0EBAB891A8A0AA10079B74A /* AddCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EBAB871A8A0AA10079B74A /* AddCategoryViewController.xib */; };
+		D0EBAB8C1A8A37590079B74A /* EditCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBAB8B1A8A37590079B74A /* EditCategoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		D0EBAB851A8A0AA10079B74A /* AddCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoryViewController.h; sourceTree = "<group>"; };
 		D0EBAB861A8A0AA10079B74A /* AddCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoryViewController.m; sourceTree = "<group>"; };
 		D0EBAB871A8A0AA10079B74A /* AddCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCategoryViewController.xib; sourceTree = "<group>"; };
+		D0EBAB8A1A8A37590079B74A /* EditCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCategoryViewController.h; sourceTree = "<group>"; };
+		D0EBAB8B1A8A37590079B74A /* EditCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCategoryViewController.m; sourceTree = "<group>"; };
 		E0ED0593CF2C46B8C451D6D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -213,6 +216,8 @@
 				D0EBAB851A8A0AA10079B74A /* AddCategoryViewController.h */,
 				D0EBAB861A8A0AA10079B74A /* AddCategoryViewController.m */,
 				D0EBAB871A8A0AA10079B74A /* AddCategoryViewController.xib */,
+				D0EBAB8A1A8A37590079B74A /* EditCategoryViewController.h */,
+				D0EBAB8B1A8A37590079B74A /* EditCategoryViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				D00D99B01A83E8D7007B3787 /* MainViewController.m in Sources */,
 				D00D99AD1A83E8D7007B3787 /* AppDelegate.m in Sources */,
 				D0EBAB7E1A8915460079B74A /* NotificationsStateCell.m in Sources */,
+				D0EBAB8C1A8A37590079B74A /* EditCategoryViewController.m in Sources */,
 				D00D99AA1A83E8D7007B3787 /* main.m in Sources */,
 				8ADBE0621A26AC5D426555EB /* DataUtil.m in Sources */,
 				D02B73891A86749200407124 /* TaskCategory.m in Sources */,

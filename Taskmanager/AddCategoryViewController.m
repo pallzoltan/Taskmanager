@@ -13,9 +13,6 @@
 #import "DataUtil.h"
 
 @interface AddCategoryViewController ()
-@property (weak, nonatomic) IBOutlet HRBrightnessSlider *brightnessSlider;
-@property (weak, nonatomic) IBOutlet HRColorMapView *colorMapView;
-@property (weak, nonatomic) IBOutlet UITextField *nameField;
 
 @end
 
@@ -30,9 +27,9 @@
 
     [self.colorMapView setBrightness:1];
 
-    self.nameField.placeholder = @"Task name";
+    self.nameField.placeholder = @"Category name";
 
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(handleDoneButton)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Save" style:UIBarButtonItemStylePlain target:self action:@selector(handleDoneButton)];
     
     self.title = @"Add category";
 }

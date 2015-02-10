@@ -14,6 +14,7 @@
 #import "SortStateCell.h"
 #import "Task.h"
 #import "AddCategoryViewController.h"
+#import "EditCategoryViewController.h"
 
 @interface SettingsViewController ()
 
@@ -115,6 +116,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+
+    if (indexPath.section == 1) {
+        // edit the Category
+
+        EditCategoryViewController *editCategoryViewController;
+        editCategoryViewController = [[EditCategoryViewController alloc] init];
+        editCategoryViewController.category = self.categories[indexPath.row];
+
+        [self.navigationController pushViewController:editCategoryViewController animated:YES];
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

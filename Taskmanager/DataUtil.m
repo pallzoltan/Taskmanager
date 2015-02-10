@@ -55,6 +55,15 @@
     }];
 }
 
++ (void)updateCategory:(TaskCategory *)category withName:(NSString *)name withColor:(UIColor *)color {
+    [MagicalRecord saveWithBlockAndWait:^(NSManagedObjectContext *localContext) {
+        TaskCategory *localTaskCategory;
+        localTaskCategory = [category MR_inContext:localContext];
+        localTaskCategory.name = name;
+        localTaskCategory.color = [NSKeyedArchiver archivedDataWithRootObject:color];
+    }];
+}
+
 + (void)createTaskWithName:(NSString *)name category:(Task *)category date:(NSDate *)date notification:(BOOL)notificationOn {
     [MagicalRecord saveWithBlockAndWait:^(NSManagedObjectContext *localContext) {
         Task *localTask;
@@ -175,6 +184,4 @@
     [[NSUserDefaults standardUserDefaults] setValue:@(state) forKey:kEnableNotifications];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
-
-
 @end

@@ -50,7 +50,8 @@
     self.dateLabel.date = [NSDate date];
 
     //
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(handleDoneButton:)];
+    self.nameTextField.placeholder = @"Task name";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Save" style:UIBarButtonItemStylePlain target:self action:@selector(handleDoneButton:)];
 
     self.markAsDoneButton.hidden = YES;
     self.title = @"Add task";

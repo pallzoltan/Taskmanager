@@ -40,4 +40,6 @@
 + (BOOL)notificationsEnabled;
 
 + (void)setNotificationsEnabled:(BOOL)state;
+
++ (void)updateCategory:(TaskCategory *)category withName:(NSString *)name withColor:(UIColor *)color;
 @end
