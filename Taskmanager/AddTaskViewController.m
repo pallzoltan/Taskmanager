@@ -53,8 +53,6 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(handleDoneButton:)];
 
     self.markAsDoneButton.hidden = YES;
-
-    [self.nameTextField becomeFirstResponder];
 }
 
 - (void)handleDoneButton:(UIButton *)doneButton {

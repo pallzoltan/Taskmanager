@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddCategoryViewController">
+            <connections>
+                <outlet property="brightnessSlider" destination="G8z-if-57l" id="JXd-wE-oYo"/>
+                <outlet property="colorMapView" destination="Spm-nr-f1S" id="Av9-3e-MaL"/>
+                <outlet property="nameField" destination="8XY-mo-Tdg" id="GTa-FW-rbK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwE-LH-wN9" customClass="HRColorPickerView">
+                    <rect key="frame" x="0.0" y="112" width="320" height="368"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spm-nr-f1S" customClass="HRColorMapView">
+                            <rect key="frame" x="0.0" y="27" width="320" height="341"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="saturationUpperLimit">
+                                    <real key="value" value="0.94999999999999996"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="tileSize">
+                                    <integer key="value" value="16"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G8z-if-57l" customClass="HRBrightnessSlider">
+                            <rect key="frame" x="8" y="8" width="303" height="11"/>
+                            <color key="backgroundColor" red="0.66666666669999997" green="0.61911003490000005" blue="0.62945342689999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="11" id="TCe-ai-W21"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="brightnessLowerLimit">
+                                    <real key="value" value="0.40000000000000002"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Spm-nr-f1S" secondAttribute="bottom" id="3fU-4l-dyg"/>
+                        <constraint firstAttribute="trailing" secondItem="Spm-nr-f1S" secondAttribute="trailing" id="A78-rT-Hrl"/>
+                        <constraint firstAttribute="trailing" secondItem="G8z-if-57l" secondAttribute="trailing" constant="9" id="CTn-LX-w42"/>
+                        <constraint firstItem="Spm-nr-f1S" firstAttribute="top" secondItem="mwE-LH-wN9" secondAttribute="top" priority="250" constant="27" id="pMe-bF-6ly"/>
+                        <constraint firstItem="Spm-nr-f1S" firstAttribute="leading" secondItem="mwE-LH-wN9" secondAttribute="leading" id="q5t-rM-peV"/>
+                        <constraint firstItem="G8z-if-57l" firstAttribute="leading" secondItem="mwE-LH-wN9" secondAttribute="leading" constant="8" id="uhd-Rb-cXf"/>
+                        <constraint firstItem="G8z-if-57l" firstAttribute="top" secondItem="mwE-LH-wN9" secondAttribute="top" constant="8" id="ysr-EY-U10"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="brightnessSlider" destination="G8z-if-57l" id="4w0-Cj-JJJ"/>
+                        <outlet property="colorMapView" destination="Spm-nr-f1S" id="EqJ-fZ-I0y"/>
+                    </connections>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8XY-mo-Tdg">
+                    <rect key="frame" x="8" y="74" width="304" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8XY-mo-Tdg" secondAttribute="trailing" constant="8" id="FZW-eM-XVI"/>
+                <constraint firstItem="mwE-LH-wN9" firstAttribute="top" secondItem="8XY-mo-Tdg" secondAttribute="bottom" constant="8" id="HJb-8q-Jgh"/>
+                <constraint firstItem="8XY-mo-Tdg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="K8W-uQ-Zhq"/>
+                <constraint firstAttribute="bottom" secondItem="mwE-LH-wN9" secondAttribute="bottom" id="R8V-Qd-LJ2"/>
+                <constraint firstItem="8XY-mo-Tdg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="efW-yq-jpe"/>
+                <constraint firstItem="mwE-LH-wN9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gdQ-Z3-8cW"/>
+                <constraint firstAttribute="trailing" secondItem="mwE-LH-wN9" secondAttribute="trailing" id="xea-BH-Pv1"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
