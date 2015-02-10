@@ -35,6 +35,7 @@
     self.notificationSwitch.on = self.task.notification.boolValue;
     self.markAsDoneButton.hidden = NO;
     [self updateMarkAsDoneButton];
+    self.title = @"Edit task";
 }
 
 - (void)handleDoneButton:(id)doneButton {

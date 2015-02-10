@@ -53,6 +53,7 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(handleDoneButton:)];
 
     self.markAsDoneButton.hidden = YES;
+    self.title = @"Add task";
 }
 
 - (void)handleDoneButton:(UIButton *)doneButton {

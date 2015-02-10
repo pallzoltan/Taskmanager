@@ -33,6 +33,8 @@
     self.nameField.placeholder = @"Task name";
 
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(handleDoneButton)];
+    
+    self.title = @"Add category";
 }
 
 - (void)handleDoneButton {

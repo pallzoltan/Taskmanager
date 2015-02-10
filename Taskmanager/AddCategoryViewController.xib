@@ -33,7 +33,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G8z-if-57l" customClass="HRBrightnessSlider">
-                            <rect key="frame" x="8" y="8" width="303" height="11"/>
+                            <rect key="frame" x="16" y="8" width="288" height="11"/>
                             <color key="backgroundColor" red="0.66666666669999997" green="0.61911003490000005" blue="0.62945342689999995" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="11" id="TCe-ai-W21"/>
@@ -49,10 +49,10 @@
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="Spm-nr-f1S" secondAttribute="bottom" id="3fU-4l-dyg"/>
                         <constraint firstAttribute="trailing" secondItem="Spm-nr-f1S" secondAttribute="trailing" id="A78-rT-Hrl"/>
-                        <constraint firstAttribute="trailing" secondItem="G8z-if-57l" secondAttribute="trailing" constant="9" id="CTn-LX-w42"/>
-                        <constraint firstItem="Spm-nr-f1S" firstAttribute="top" secondItem="mwE-LH-wN9" secondAttribute="top" priority="250" constant="27" id="pMe-bF-6ly"/>
+                        <constraint firstAttribute="trailing" secondItem="G8z-if-57l" secondAttribute="trailing" constant="16" id="CTn-LX-w42"/>
+                        <constraint firstItem="Spm-nr-f1S" firstAttribute="top" secondItem="mwE-LH-wN9" secondAttribute="top" constant="27" id="pMe-bF-6ly"/>
                         <constraint firstItem="Spm-nr-f1S" firstAttribute="leading" secondItem="mwE-LH-wN9" secondAttribute="leading" id="q5t-rM-peV"/>
-                        <constraint firstItem="G8z-if-57l" firstAttribute="leading" secondItem="mwE-LH-wN9" secondAttribute="leading" constant="8" id="uhd-Rb-cXf"/>
+                        <constraint firstItem="G8z-if-57l" firstAttribute="leading" secondItem="mwE-LH-wN9" secondAttribute="leading" constant="16" id="uhd-Rb-cXf"/>
                         <constraint firstItem="G8z-if-57l" firstAttribute="top" secondItem="mwE-LH-wN9" secondAttribute="top" constant="8" id="ysr-EY-U10"/>
                     </constraints>
                     <connections>

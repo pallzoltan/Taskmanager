@@ -35,6 +35,8 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"simpleCell"];
     [self.tableView registerNib:[UINib nibWithNibName:@"NotificationsStateCell" bundle:nil] forCellReuseIdentifier:@"notificationsStateCell"];
     [self.tableView registerNib:[UINib nibWithNibName:@"SortStateCell" bundle:nil] forCellReuseIdentifier:@"sortStateCell"];
+    
+    self.title = @"Settings";
 }
 
 - (void)viewWillAppear:(BOOL)animated {

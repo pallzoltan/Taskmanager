@@ -56,8 +56,10 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Settings"
                                                                               style:UIBarButtonItemStylePlain target:self action:@selector(handleSettingsButton:)];
 
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Add task"
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Add"
                                                                               style:UIBarButtonItemStylePlain target:self action:@selector(handleAddTaskButton:)];
+    
+    self.title = @"Tasks";
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -215,7 +217,7 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     HeaderView *headerView;
     headerView = [self.tableView dequeueReusableHeaderFooterViewWithIdentifier:@"header"];
-    headerView.label.text = section == 0 ? @"Tasks to do:" : @"Done tasks";
+    headerView.label.text = section == 0 ? @"To do" : @"Done";
 
     return headerView;
 }
